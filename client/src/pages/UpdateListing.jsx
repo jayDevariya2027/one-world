@@ -262,7 +262,7 @@ export default function UpdateListing() {
                 required
                 className="p-3 border border-gray-300 rounded-lg"
                 onChange={handleChange}
-                defaultValue={formData.bedrooms}
+                value={formData.bedrooms}
               />
               <p>Beds</p>
             </div>
@@ -275,7 +275,7 @@ export default function UpdateListing() {
                 required
                 className="p-3 border border-gray-300 rounded-lg"
                 onChange={handleChange}
-                defaultValue={formData.bathrooms}
+                value={formData.bathrooms}
               />
               <p>Baths</p>
             </div>
@@ -288,7 +288,7 @@ export default function UpdateListing() {
                 required
                 className="p-3 border border-gray-300 rounded-lg"
                 onChange={handleChange}
-                defaultValue={formData.regularPrice}
+                value={formData.regularPrice}
               />
               <div className="flex flex-col items-center">
                 <p>Regular price</p>
@@ -310,7 +310,7 @@ export default function UpdateListing() {
                   required
                   className="p-3 border border-gray-300 rounded-lg"
                   onChange={handleChange}
-                  defaultValue={formData.discountPrice}
+                  value={formData.discountPrice}
                 />
                 <div className="flex flex-col items-center">
                   <p>Discounted price</p>
